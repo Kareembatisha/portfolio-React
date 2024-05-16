@@ -15,7 +15,7 @@ const Hero = () => {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
             transition={{ damping: 6, type: "spring", stiffness: 100 }}
-            src="./public\portfolio-modified.png"
+            src="./portfolio-modified.png"
             className="avatar"
             alt=""
           />
