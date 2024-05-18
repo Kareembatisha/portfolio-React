@@ -2,39 +2,51 @@ export const myProjects = [
   {
     projectTitle: "react project",
     category: ["react"],
-    imgPath: "./images/1.jpg",
+    imgPath: "./images/react 1.jpg",
+    url: "https://github.com/Kareembatisha/Graduation-project/tree/react",
   },
   {
     projectTitle: "react & css project",
-    category: ["react", "css"],
-    imgPath: "./images/2.jpg",
-  },
-  { projectTitle: "css project", category: ["css"], imgPath: "./images/3.jpg" },
-  {
-    projectTitle: "react project",
     category: ["react"],
-    imgPath: "./images/4.jpg",
+    imgPath: "./images/react 2.png",
+    url: "https://github.com/Kareembatisha/React-Admin-Dashboard",
   },
-  { projectTitle: "css project", category: ["css"], imgPath: "./images/5.jpg" },
+  {
+    projectTitle: "css project",
+    category: ["css"],
+    imgPath: "./images/html&css 1.png",
+    url: "https://github.com/Kareembatisha/elzero-html-1",
+  },
+
+  {
+    projectTitle: "css project",
+    category: ["css"],
+    imgPath: "./images/html&css 2.png",
+    url: "https://github.com/Kareembatisha/elzero-html-2",
+  },
+  {
+    projectTitle: "css project",
+    category: ["css"],
+    imgPath: "./images/html&css 3.png",
+    url: "https://github.com/Kareembatisha/chair-web-Page",
+  },
+  {
+    projectTitle: "css project",
+    category: ["css"],
+    imgPath: "./images/html&css 4.png",
+    url: "https://github.com/Kareembatisha/travel-web-page",
+  },
 
   {
     projectTitle: "javaScript project",
     category: ["js"],
-    imgPath: "./images/6.jpg",
+    imgPath: "./images/JS 1.png",
+    url: "https://github.com/Kareembatisha/E-commerce-Project",
   },
   {
-    projectTitle: "node project",
-    category: ["node"],
-    imgPath: "./images/7.jpg",
-  },
-  {
-    projectTitle: "node project",
-    category: ["node"],
-    imgPath: "./images/8.jpg",
-  },
-  {
-    projectTitle: "javaScript project",
-    category: ["js"],
-    imgPath: "./images/9.jpg",
+    projectTitle: "Bootstrap project",
+    category: ["Bootstrap"],
+    imgPath: "./images/Bootstrap 1.png",
+    url: "https://github.com/Kareembatisha/bootstrap-project2",
   },
 ];

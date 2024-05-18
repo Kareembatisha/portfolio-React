@@ -11,18 +11,18 @@ const Main = () => {
     setcurrentActive(buttonCategory);
 
     const newArr = myProjects.filter((item) => {
-      const ZZZ = item.category.find((myItem) => {
+      const btnCategory = item.category.find((myItem) => {
         return myItem === buttonCategory;
       });
 
-      return ZZZ === buttonCategory;
+      return btnCategory === buttonCategory;
     });
 
     setArr(newArr);
   };
 
   return (
-    <main className="flex">
+    <main className="flex" id="projects">
       <section className="flex  left-section">
         <button
           onClick={() => {
@@ -42,6 +42,14 @@ const Main = () => {
         >
           HTML & CSS
         </button>
+        <button
+          onClick={() => {
+            handleClick("Bootstrap");
+          }}
+          className={currentActive === "Bootstrap" ? "active" : null}
+        >
+          Bootstrap
+        </button>
 
         <button
           onClick={() => {
@@ -58,14 +66,6 @@ const Main = () => {
           className={currentActive === "react" ? "active" : null}
         >
           React & MUI
-        </button>
-        <button
-          onClick={() => {
-            handleClick("node");
-          }}
-          className={currentActive === "node" ? "active" : null}
-        >
-          Node & Express
         </button>
       </section>
 
@@ -93,7 +93,9 @@ const Main = () => {
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
                       <div className="icon-link"></div>
-                      <div className="icon-github"></div>
+                      <a href={item.url} target="_blank">
+                        <div className="icon-github"></div>
+                      </a>
                     </div>
 
                     <a className="link flex" href="">

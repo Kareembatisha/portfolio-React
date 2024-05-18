@@ -8,7 +8,7 @@ const Hero = () => {
   const lottieRef = useRef();
 
   return (
-    <section className="hero flex">
+    <section className="hero flex" id="about">
       <div className="left-section  ">
         <div className="parent-avatar flex">
           <motion.img
@@ -28,7 +28,8 @@ const Hero = () => {
           transition={{ duration: 2 }}
           className="title"
         >
-          Frontend Developer React.Js.
+          Frontend Developer{" / "}
+          <span style={{ color: "rgb(93, 188, 252)" }}>React.Js</span>.
         </motion.h1>
 
         <p className="sub-title">
@@ -41,10 +42,15 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <div className="icon icon-twitter"></div>
-          <div className="icon icon-instagram"></div>
-          <div className="icon icon-github"></div>
-          <div className="icon icon-linkedin"></div>
+          <a href="https://github.com/Kareembatisha" target="_blank">
+            <div className="icon icon-github"></div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kareem-batisha-545b65239/"
+            target="_blank"
+          >
+            <div className="icon icon-linkedin"></div>
+          </a>
         </div>
       </div>
 
