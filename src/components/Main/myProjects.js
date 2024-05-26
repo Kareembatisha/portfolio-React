@@ -3,7 +3,7 @@ export const myProjects = [
     projectTitle: "react project",
     category: ["react"],
     imgPath: "./images/react 1.jpg",
-    url: "https://github.com/Kareembatisha/Graduation-project/tree/react",
+    url: "https://github.com/Kareembatisha/Angy-Pharmacy",
   },
   {
     projectTitle: "react & css project",
