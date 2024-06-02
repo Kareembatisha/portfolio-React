@@ -12,6 +12,12 @@ export const myProjects = [
     url: "https://github.com/Kareembatisha/React-Admin-Dashboard",
   },
   {
+    projectTitle: "react & css project",
+    category: ["react"],
+    imgPath: "./images/Netflix 2.png",
+    url: "https://github.com/Kareembatisha/netflix-clone",
+  },
+  {
     projectTitle: "css project",
     category: ["css"],
     imgPath: "./images/html&css 1.png",
